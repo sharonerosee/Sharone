@@ -18,30 +18,38 @@ module.exports = {
 			lg: '960px',
 			xl: '1200px',
 		},
+		fontFamily: {
+			primary: 'var(--font-jetbrainsMono)',
+		},
 		extend: {
+
+			colors: {
+				primary: '#1c1c22',
+				accent: {
+					DEFAULT: '#fe019A',
+					hover: '#e0115f',
+				},
+			},
+
 			keyframes: {
 				"accordion-down": {
 					from: { height: '0' },
-					to: { height: 'var(--radix-accordion-content-height'},
+					to: { height: 'var(--radix-accordion-content-height' },
 				},
 				"accordion-up": {
-					to: { height: 'var(--radix-accordion-content-height'},
+					to: { height: 'var(--radix-accordion-content-height' },
 					from: { height: '0' },
 				},
 			},
-			animation:{
+			animation: {
+				'accordion-down': "accordion-down 0.2s ease-out",
+				'accordion-up': "accordion-up 0.2s ease-out",
 			},
-			'accordion-down': 'accordion-down 0.2s ease-out',
-			'accordion-up': 'accordion-up 0.2s ease-out',
-			colors: {
-				background: 'var(--background)',
-				foreground: 'var(--foreground)'
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			}
+			// borderRadius: {
+			// 	lg: 'var(--radius)',
+			// 	md: 'calc(var(--radius) - 2px)',
+			// 	sm: 'calc(var(--radius) - 4px)'
+			// }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
