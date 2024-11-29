@@ -1,3 +1,5 @@
+"use client";
+
 import { FaWhatsapp, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 import { motion } from "framer-motion"
 
@@ -24,7 +26,7 @@ const info = [
 
 const Contact = () => {
   return (
-    <div
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -39,8 +41,8 @@ const Contact = () => {
               return (
                 <li
                   key={index}
-                  className="flex items-center gap-6 animate-float transform transition-all ease-in-out duration-300 hover:scale-105 hover:shadow-2xl hover:translate-y-[-12px]"
-                >
+                  className="flex items-center gap-6 animate-float transform transition-all ease-in-out duration-300 hover:scale-105 hover:shadow-[rgba(255,255,255,0.1)_0_4px_6px_0] hover:translate-y-[-12px]"
+                  >
                   <a href={item.link} target="_blank" rel="noopener noreferrer">
                     <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
                       <div className="text-[28px]">{item.icon}</div>
@@ -56,7 +58,7 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
