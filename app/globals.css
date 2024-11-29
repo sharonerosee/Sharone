@@ -22,3 +22,20 @@
       -webkit-text-stroke: 1px #fe019A;
    }
 }
+
+@keyframes float {
+   0% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-30px); 
+   }
+   100% {
+     transform: translateY(0); 
+   }
+ }
+ 
+ .animate-float {
+   animation: float 3s ease-in-out infinite; 
+ }
+ 
