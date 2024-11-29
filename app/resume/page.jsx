@@ -1,8 +1,5 @@
 "use client";
 
-// import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from "react-icons/fa";
-// import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
-
 const about = {
   title: 'About me',
   description: 'Informatics Engineering student at Universitas Multimedia Nusantara with experience in web development for campus organizations. Passionate about creating innovative IT solutions and eager to contribute to dynamic projects, with a focus on website and application development.',
@@ -105,7 +102,6 @@ const education = {
 }
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion"
 
