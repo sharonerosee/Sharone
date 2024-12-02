@@ -19,9 +19,7 @@ const Home = () => {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            {/* <span className="text-xl">Web & Application Developer</span> */}
             <TypingText />
             <h1 className="text-4xl sm:text-h1 md:text-6xl">
               Hello I&apos;m <br /> <span className="text-accent text-5xl sm:text-h1 md:text-7xl font-bold">Sharone Angelica <br />Jovans</span>
@@ -31,7 +29,6 @@ const Home = () => {
               campus organizations and strong teamwork skills. Passionate in creating innovative IT solutions and eager to
               contribute to dynamic projects. Interested in website developer and application developer.
             </p>
-            {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 onClick={handleDownload}
@@ -48,7 +45,6 @@ const Home = () => {
               />
             </div>
           </div>
-          {/* photo */}
           <div className="oder-1 xl:order-none mb-8 xl:mb-0">
             <Photo />
           </div>

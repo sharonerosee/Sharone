@@ -13,14 +13,14 @@ const stairAnimation = {
 }
 
 const reverseIndex = (index) => {
-    const totalSteps = 9;
+    const totalSteps = 10;
     return totalSteps - index - 1;
 }
 
 
 const Stairs = () => {
     return <>
-        {[...Array(9)].map((_, index) => {
+        {[...Array(12)].map((_, index) => {
             return (
                 <motion.div
                     key={index}
