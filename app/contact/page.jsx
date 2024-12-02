@@ -19,7 +19,7 @@ const info = [
   },
   {
     icon: <FaMapMarkedAlt />,
-    title: "Address",
+    title: "Addresss",
     description: "Tangerang, Indonesia",
   },
 ];
