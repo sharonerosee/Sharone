@@ -9,7 +9,7 @@ import { FiDownload } from "react-icons/fi";
 
 const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "/assets/Sharone_Angelica_Jovans-CV.pdf";
+  link.href = "/assets/CV-SharoneAngelicaJovans.pdf";
   link.download = "Sharone Angelica Jovans.pdf";
   link.click();
 };
