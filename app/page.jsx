@@ -24,7 +24,7 @@ const Home = () => {
             {/* <span className="text-xl">Web & Application Developer</span> */}
             <TypingText />
             <h1 className="text-4xl sm:text-h1 md:text-6xl">
-              Hello I'm <br /> <span className="text-accent text-5xl sm:text-h1 md:text-7xl font-bold">Sharone Angelica <br />Jovans</span>
+              Hello I&apos;m <br /> <span className="text-accent text-5xl sm:text-h1 md:text-7xl font-bold">Sharone Angelica <br />Jovans</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 text-center sm:text-justify">
               An Informatics Engineering student at Universitas Multimedia Nusantara with experience in web development for
