@@ -15,7 +15,7 @@ const info = [
     icon: <FaEnvelope />,
     title: "Email",
     description: "sharone.angelica@gmail.com",
-    link: "https://mail.google.com/",
+    link: "https://mail.google.com/mail/u/0/#inbox?compose=new",
   },
   {
     icon: <FaMapMarkedAlt />,
